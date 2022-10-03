@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ font-family: 'Merriweather', serif;
+}
+h1{
+  background: #3333cc;
+  color: #ffffff;
+  padding: 0.25em;
+}
+div, p, input {
+  padding: 0.5em;
+  font-size: 1.25em;
+}
+button{
+  background: #3333cc;
+  color: #ffffff;
+  font-size: 1.53em;
+}
+button:hover {
+      background-color:#9999ff;
+      transition: 0.7s;
+  }

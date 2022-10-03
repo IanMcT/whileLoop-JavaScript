@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Summation with while loops</h1>
+  <p>Summation is the adding of a sequence of numbers.  
+  <!--MathJax code for summation -->
+  $$\sum\limits_{i = m}^n {a_i}=a_m+a_{m+1}+...a_{n-1}+a_n$$
+  For example:
+  $$\sum\limits_{i = 1}^4 {i}=1+2+3+4$$
+  or
+  $$\sum\limits_{i = 1}^4 {i}=10$$
+    </p>
+  <p>We can use a while loop to solve for $$n$$ for the largest summation that is smaller than x:</p>
+ <p>$$\sum\limits_{i = 1}^n {i}=x$$</p>
+<div id="output"></div>
+  <div>
+    <label for="inputX">x</label>
+    <input type="number" id="inputX">
+    <button onclick="calculate();">Find n up to x</button>
+    
+  </div>
+  <!--$$\sum\limits_{i = 1}^n {a_i}=50$$-->
+  <script src="script.js"></script>
+
+  <!--JavaScript that will convert MathJax code-->
+ <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+</body>
+
+</html>
